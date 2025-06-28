@@ -1,0 +1,26 @@
+{
+    "name": "acf/general-content",
+    "title": "General Content",
+    "description": "General Content",
+    "style": "",
+    "category": "acf",
+    "icon": "media-text",
+    "keywords": ["general", "content"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "general-content.php"
+    },
+    "align": "full",
+    "supports" : {
+        "align": [ "wide", "full" ], 
+        "fullHeight": true,
+        "anchor": true,
+		"className": true
+    },
+    "attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		}
+	}
+}

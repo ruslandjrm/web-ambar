@@ -1,0 +1,23 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+
+//fonts
+$font-title: "Space Grotesk", sans-serif;
+$font-text: "Plus Jakarta Sans", sans-serif;
+
+//colors
+$black: #000000;
+$white: #fff;
+
+$primary: #051630;
+$secondary: #070a03;
+$dark-blue: #0a043c;
+$blue: #0e6aff;
+$denim: #1b73b8;
+$yellow-green: #8dc63f;
+
+//fonts-sizes
+$font-base: 22px;
+$font-large: 24px;
+$font-small: 18px;

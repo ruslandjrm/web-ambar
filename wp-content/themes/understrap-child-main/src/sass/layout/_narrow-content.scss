@@ -1,0 +1,45 @@
+.narrow-content {
+    &__content{
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 100px 0px 209px;
+        
+        h2, h3, h4, h5 {
+            margin: 34px 0px;
+        }
+        p {
+            &.date {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 47.08px;
+                @media (max-width: 991px) {
+                    font-size: 16px;
+                }
+            }
+            &:has(+ [class*="wp-block-heading"]) {
+                margin-bottom: 0;
+              }
+        }
+        .page-title {
+            font-size: 14px;
+            font-weight: 600;
+            background: #1f6ffc;
+            border-radius: 15px;
+            min-width: 210px;
+            display: inline-block;
+            text-transform: uppercase;
+            padding: 14px 30px;
+            text-align: center;
+            color: #fff;
+            font-family: "Space Grotesk", sans-serif;
+            letter-spacing: 2.8px;
+            margin-bottom: 20px;
+            line-height: 26px;
+        }
+        @media (max-width: 991px) {
+            padding: 50px 30px;  
+        }
+    }
+    
+}
+    

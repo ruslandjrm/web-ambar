@@ -1,0 +1,99 @@
+.related-post{
+    margin-bottom: 157px;
+    @media (max-width:991px) {
+        margin-bottom: 50px;
+    }
+    .title-related{
+        margin-bottom: 40px;
+        h2{
+            text-transform: capitalize;
+        }
+    }
+    .related-post-item{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #D1D3D4;
+        border-radius: 30px;
+        height: 100%;
+        position: relative;
+        padding-bottom: 48px;
+        &:hover{
+            background: #b4fc53 0 0 no-repeat padding-box;
+        }
+        .post-type{
+            margin-bottom: 24px;
+            padding: 40px 0px 0px 42px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        img{
+            border-radius: 30px;
+            max-width: 440px;
+            width: 100%;
+            @media (max-width:1599px) {
+                max-width: 100%;
+            }
+            
+        }
+        h3{
+            padding: 41px 44px 0px 40px;
+            margin-bottom: 15px;
+        }
+        .post-excerpt{
+            font-size: 18px;
+            padding-left: 40px;
+            padding-right: 45px;
+            margin-bottom: 127px;
+        }
+        .btn-link{
+            position: absolute;
+            bottom: 48px;
+            padding-left: 80px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            font-size: 14px;
+            font-weight: 600;
+            &::before{
+                content: '';
+                background: url('../assets/img/arrow-card.svg');
+                background-size: cover;
+                position: absolute;
+                left: 40px;
+                right: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 30px;
+                height: 30px;
+                transition: transform 0.5s ease;
+                // will-change: transform; 
+                // backface-visibility: hidden;
+                // image-rendering:optimizeQuality;
+            }
+            &:hover{
+                text-decoration: underline;
+            }
+            &:hover::before{
+                transform: translateY(-50%) rotate(44deg);
+            }
+        }
+    }
+    .post-slider-list{
+        margin: 0 -20px;
+        .slider-list-space{
+            margin-bottom: 0;
+            .slick-track{
+                display: flex;
+                .slick-slide{
+                    margin: 0 20px;
+                    height: auto;
+                    >div{
+                        height: 100%;
+                        >div{
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

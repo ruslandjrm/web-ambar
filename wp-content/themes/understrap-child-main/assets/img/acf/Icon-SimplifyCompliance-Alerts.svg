@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.634" height="75.521" viewBox="0 0 67.634 75.521">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2474bb"/>
+      <stop offset="1" stop-color="#002f87"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon-SimplifyCompliance-Alerts" transform="translate(-1009 -422.166)">
+    <path id="Path_91058" data-name="Path 91058" d="M52.592,0a8.374,8.374,0,0,1,7.1,4.091l14.74,25.635a8.21,8.21,0,0,1,0,8.182L59.689,63.543a8.374,8.374,0,0,1-7.1,4.091H22.929a8.224,8.224,0,0,1-7.006-4.091L1.092,37.908a8.209,8.209,0,0,1,0-8.182L15.923,4.091A8.224,8.224,0,0,1,22.929,0Z" transform="translate(1076.634 422.166) rotate(90)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <g id="Group_122968" data-name="Group 122968" transform="translate(1022.834 440.488)">
+      <path id="Path_90442" data-name="Path 90442" d="M980.344,369.967h21.778V363.81a10.912,10.912,0,0,0-11.635-10.862A11.159,11.159,0,0,0,980.344,364.2Zm4-6.154a6.9,6.9,0,0,1,6.886-6.886,1.333,1.333,0,1,1,0,2.666,4.225,4.225,0,0,0-4.22,4.221v2.153a1.333,1.333,0,1,1-2.666,0Z" transform="translate(-970.944 -343.526)" fill="#fff"/>
+      <path id="Path_90443" data-name="Path 90443" d="M1007.554,333.709a1.512,1.512,0,0,1-1.51-1.51v-3.522a1.51,1.51,0,0,1,3.02,0V332.2a1.511,1.511,0,0,1-1.509,1.51" transform="translate(-987.266 -327.168)" fill="#fff"/>
+      <path id="Path_90444" data-name="Path 90444" d="M973.658,347.751a1.5,1.5,0,0,1-1.068-.443l-2.49-2.49a1.51,1.51,0,1,1,2.135-2.135l2.49,2.49a1.51,1.51,0,0,1-1.067,2.578" transform="translate(-964.159 -336.741)" fill="#fff"/>
+      <path id="Path_90445" data-name="Path 90445" d="M956.1,381.65a1.51,1.51,0,1,1,0-3.02h3.521a1.51,1.51,0,1,1,0,3.02Z" transform="translate(-954.585 -359.851)" fill="#fff"/>
+      <path id="Path_90446" data-name="Path 90446" d="M1049.364,381.65a1.51,1.51,0,1,1,0-3.02h3.521a1.51,1.51,0,0,1,0,3.02Z" transform="translate(-1013.82 -359.851)" fill="#fff"/>
+      <path id="Path_90447" data-name="Path 90447" d="M1037.117,347.751a1.51,1.51,0,0,1-1.068-2.578l2.49-2.49a1.51,1.51,0,1,1,2.135,2.135l-2.49,2.49a1.5,1.5,0,0,1-1.067.443" transform="translate(-1006.042 -336.741)" fill="#fff"/>
+      <path id="Path_90448" data-name="Path 90448" d="M996.377,405.916H972.486a2.851,2.851,0,1,0,0,5.7h23.891a2.851,2.851,0,1,0,0-5.7" transform="translate(-964.143 -377.181)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,116 @@
+.admin-bar .header-site{
+    top: 32px;
+}
+.header-site{
+    position: sticky;
+    z-index: 10000;
+    top: 0;
+    padding: 24px 0;
+    .container-logo{
+        margin-right: 10px;
+        max-width: 200px;
+        width: 100%;
+        .custom-logo-link{
+            padding: 0;
+            display: inline-block;
+            margin: 0;
+            width: 100%;
+        }
+        figure{
+            margin: 0;
+            img{
+                max-width: 154px;
+                width: 100%;
+            }
+        }
+        .logo-sticky {
+            width: 100%;
+        }
+    }
+    .content-menu-lists{
+        width: fit-content;
+        display: flex ;
+        align-items: center;
+        justify-content: end;
+        .navbar-nav{
+            display: flex;
+            gap: 25px;
+            .menu-item {
+                a{
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    letter-spacing: 0px;
+                    color: #03282C;
+                }
+            }
+        }
+        .header-buttons {
+            &.mobile-active{
+                display: none;
+            }
+            margin-left: 40px;
+            a.btn-site.icon-right.btn-link {
+                span {
+                    padding-left: 0px;
+                }
+            }
+        }
+        .search-button{
+            display: flex;
+            padding: 10px;
+            margin-left: 20px;
+            flex: none;
+        }
+    }
+    &.scrolled {
+        width: 100%;
+        background: $white;
+        padding: 15px 0;
+        box-shadow: 0px 0px 10px #03282C34;
+        .container-logo{
+            img{
+                max-width: 140px;
+            }
+        }
+    }
+
+    @media (max-width: 1220px) {
+        &.scrolled{
+            .header-buttons{
+                display: none;
+            }
+        }
+    }
+    
+    @media (max-width: 991px) {
+        &.scrolled{
+            .header-buttons{
+                display: block;
+            }
+        }
+        .container-logo{
+            max-width: 154px;
+            figure{
+                img{
+                    max-width: 154px;
+                }
+            }
+        }
+        .content-menu-lists{
+            .header-buttons {
+                margin-left: 10px;
+                &.mobile-active{
+                    display: block;
+                }
+                &.desktop-active{
+                    display: none;
+                }
+            }
+            .search-button{
+                display: none;
+            }
+        }
+    }
+
+}

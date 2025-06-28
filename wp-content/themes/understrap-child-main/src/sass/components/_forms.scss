@@ -1,0 +1,151 @@
+.gform_wrapper {
+  .gfield {
+    .ginput_container {
+      margin-top: 0px;
+  
+      select, input, textarea {
+          color: rgba(255, 255, 255, 0.7) !important;
+          border: 1px solid #8D9AA5!important;
+          background-color: transparent!important;
+          font-size: 16px !important;
+          padding: 11px 20px!important;
+          font-weight: 200;
+          &::placeholder {
+            color: white!important;
+            font-weight: 200;
+            opacity: 0.7;
+          }
+          &:focus {
+            background-color: white!important;
+            color: $primary!important;
+            border: none!important;
+          }
+      }
+  
+      input,
+      textarea {
+          border-radius: 10px!important;
+      }
+      select {
+          border-radius: 50px!important;
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          background-image: url('../assets/img/arrow-bottom-form.png');
+          background-repeat: no-repeat;
+          background-position: right 15px center; 
+          background-size: 34px 34px;
+
+          option {
+              color: $primary;
+          }
+      }
+  
+      input[type="checkbox"]{
+          border-radius: 0!important;
+          border: solid 1px!important;
+          padding: 0px!important;
+      }
+      textarea {
+        @media (max-width: 567px) {
+          height: 150px!important;
+        }
+      }
+    }
+        
+      }
+      .gfield_checkbox {
+        padding: 10px 0 10px 0;
+        label{
+          font-weight: 200 !important;
+          font-size: 14px !important; 
+          color: rgba(255, 255, 255, 0.7)!important; 
+        }
+        a{
+          text-decoration: underline;
+          text-decoration-color: $secondary;
+          text-underline-offset: 4px;
+          &:hover {
+            text-decoration-thickness: 3px;
+          }
+        }     
+        .gchoice {
+          .gfield-choice-input {
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+          }
+          .gform-field-label a{
+            color: rgba(255, 255, 255, 0.7)!important;
+            font-size: 14px!important;
+            font-weight: 200 !important;
+          }
+          @media (max-width: 567px) {
+            display: flex;
+            align-items: start;
+          }
+        }
+      }
+      .gform {
+        &_title {
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+        }
+        &_footer {
+            input[type="submit"]{
+                font-family: $font-title!important;
+                font-size: 16px;
+                font-weight: 500;
+                background-color: #8DC63F!important;
+                color: #090913!important;
+                border-radius: 50px!important;
+                padding: 11px 90px 11px 40px !important;
+                position: relative;
+                background-image: url('../assets/img/arrow-buttom.png');
+                background-repeat: no-repeat;
+                background-position: right 15px center; 
+                background-size: 36px 36px;   
+                border: 1px solid #8DC63F;
+              &:hover {
+                background-color: transparent!important;
+                background-image: url('../assets/img/arrow-bottom2.png');
+                color: #8DC63F!important;
+              }
+            }
+        } 
+        &_fields {
+                row-gap: 15px!important;
+            }   
+
+  } 
+  .style-recaptcha{
+    @media (max-width:423px) {
+      position: relative;
+      right: 25%;
+      transform: translateX(10%) scale(0.7);
+    } 
+    @media (max-width:334px) {
+      position: relative;
+      right: 25%;
+      transform: translateX(5%) scale(0.6);
+    } 
+  }   
+}
+
+.form-sign-up{
+  .content-form{
+    padding-top: 101px;
+  }
+}
+
+.form-not-title_wrapper{
+  margin-top: 70px;
+  @media (max-width:991px) {
+    margin-top: 0px;
+  }
+  .gform_heading{
+    display: none;
+  }
+}

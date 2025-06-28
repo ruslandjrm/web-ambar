@@ -1,0 +1,102 @@
+.page-404 {
+    .row{
+        justify-content: space-between;
+    }
+    .content-left{
+        max-width: 695px;
+        .eyebrow {
+            display: inline-block;
+            background-color: #1f6ffc;
+            border: 1px solid transparent;
+            border-radius: 15px;
+            font-size: 14px;
+            color: #fff;
+            padding: 0px 30px !important;
+            height: 46px;
+            align-content: center;
+            font-family: "Space Grotesk", sans-serif;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: $blue;
+        }
+    }
+    .content-right{
+        display: flex;
+        flex-direction: column;
+        img{
+            max-width: 363px;
+            margin: 0 auto;
+            margin-bottom: 35px;
+            @media (max-width:576px) {
+                max-width: 100%;
+            }
+        }
+        .text-scroller{
+            .text-content{
+                background-color: #1F6FFC;
+                padding-left: 15px;
+                padding-right: 15px;
+                height: 112px;
+                max-height: 100%;
+                max-width: 560px;
+                margin: 0 auto;
+                border-radius: 15px;
+                @media (max-width:991px) {
+                    height: 85px;
+                }
+                @media (max-width:576px) {
+                    height: 57px;
+                }
+                .typewriter-text {
+                    display: none;
+                    font-family: "Space Grotesk", sans-serif;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    position: relative;
+                    font-size: 85px;
+                    color: white !important;
+                    margin-bottom: 0px;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: -5.95px;
+                    transition: color 2s ease, border-color 2s ease;
+                    @media (max-width:991px) {
+                        font-size: 60px;
+                    }
+                    @media (max-width:576px) {
+                        font-size: 45px;
+                        letter-spacing: -3px;
+                    }
+                
+                    &::after {
+                    content: '';
+                    position: absolute;
+                    right: 0px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 80%;
+                    width: 6px;
+                    background-color: #ffff; 
+                    animation: blink-caret 0.75s step-end infinite;
+                    @media (max-width:991px) {
+                        right: -2px;
+                        height: 70%;
+                    }
+                    @media (max-width:576px) {
+                        right: -3px;
+                        height: 60%;
+                    }
+                    }
+                }
+                    
+                @keyframes blink-caret {
+                    from, to { background-color: transparent; }
+                    50% { background-color: #ffff; }
+                }
+            }
+        } 
+    }
+
+}

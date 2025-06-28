@@ -1,0 +1,26 @@
+{
+    "name": "acf/new-block",
+    "title": "New block",
+    "description": "New block",
+    "style": "",
+    "category": "acf",
+    "icon": "media-text",
+    "keywords": ["new","block"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "new-block.php"
+    },
+    "align": "full",
+    "supports" : {
+        "align": [ "wide", "full" ], 
+        "fullHeight": true,
+        "anchor": true,
+		"className": true
+    },
+    "attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		}
+	}
+}

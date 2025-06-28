@@ -1,0 +1,132 @@
+.page-single-posts__content {
+    padding-top: 176px;
+    margin-bottom: 120px;
+
+    @media (max-width:991px) {
+        margin-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    @media (max-width:576px) {
+        padding-top: 0px;
+    }
+
+    #post-content-id {
+        padding-bottom: 100px;
+        border-bottom: 1px solid #D1D3D4;
+
+        @media (max-width:576px) {
+            padding-bottom: 50px;
+        }
+    }
+
+    .wrapper {
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+
+    #single-post {
+        .tittle-post {
+            // max-width: 1036px;
+            margin-bottom: 39px;
+
+            h1 {
+                margin-bottom: 10px;
+                padding-right: 4px;
+                text-align: left;
+                letter-spacing: -4.25px;
+                color: #051630;
+
+                //height: 299px;
+                @media (max-width:1039px) {
+                    height: auto !important;
+                }
+            }
+
+            .post-date {
+                font-size: 18px;
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+        }
+
+        .post-featured-image {
+            margin-bottom: 50px;
+
+            img {
+                max-width: 1040px;
+                width: 100%;
+                border-radius: 30px;
+                max-height: 520px;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .post-content {
+
+            p,
+            ul,
+            h2,
+            h4,
+            h3,
+            h5,
+            h6 {
+                margin-bottom: 34px;
+            }
+
+            ul {
+                list-style-type: disc;
+                padding-left: 22px;
+
+                li {
+                    position: relative;
+                    margin-bottom: 18.5px;
+
+                    @media (max-width:576px) {
+                        font-size: 17px;
+                    }
+
+                    &::marker {
+                        color: #0E6AFF;
+                    }
+                }
+            }
+
+            ol {
+                padding-left: 22px;
+
+                li {
+                    position: relative;
+                    padding-left: 13px;
+                    margin-bottom: 34px;
+
+                    @media (max-width:576px) {
+                        font-size: 17px;
+                    }
+
+                    &::marker {
+                        color: #0E6AFF;
+                        font-weight: 700;
+                        font-family: "Plus Jakarta Sans", sans-serif;
+                    }
+                }
+            }
+
+            blockquote {
+
+                p {
+                    font-weight: 700;
+                    border-left: 7.58px solid #0E6AFF;
+                    padding-left: 34px;
+                    margin-bottom: 0px;
+                }
+
+                cite {
+                    padding-left: 34px;
+                    padding: 25px;
+                }
+            }
+        }
+    }
+}

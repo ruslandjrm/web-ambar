@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.634" height="75.521" viewBox="0 0 67.634 75.521">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2474bb"/>
+      <stop offset="1" stop-color="#002f87"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon-ReducePaperwork" transform="translate(-337 -422)">
+    <path id="Path_91056" data-name="Path 91056" d="M52.592,0a8.374,8.374,0,0,1,7.1,4.091l14.74,25.635a8.21,8.21,0,0,1,0,8.182L59.689,63.543a8.374,8.374,0,0,1-7.1,4.091H22.929a8.224,8.224,0,0,1-7.006-4.091L1.092,37.908a8.209,8.209,0,0,1,0-8.182L15.923,4.091A8.224,8.224,0,0,1,22.929,0Z" transform="translate(404.634 422) rotate(90)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <g id="Group_122973" data-name="Group 122973" transform="translate(353 444)">
+      <path id="Path_90467" data-name="Path 90467" d="M397,349.788a4.091,4.091,0,0,1,4.087-4.087h5.99a5.446,5.446,0,0,1,4.641,2.866l.213.426a2.788,2.788,0,0,0,.633.062h8.728v-2.914a2.332,2.332,0,0,0-2.329-2.33h-12c-.63,0-1.739-.1-2.086-.8l-.332-.663a3.706,3.706,0,0,0-3.069-1.9h-5.99a2.332,2.332,0,0,0-2.33,2.329v17.744a2.333,2.333,0,0,0,2.33,2.33H397Z" transform="translate(-393.159 -340.458)" fill="#fff"/>
+      <path id="Path_90468" data-name="Path 90468" d="M435.745,365.538h-12c-.63,0-1.739-.1-2.086-.8l-.332-.663a3.705,3.705,0,0,0-3.069-1.9h-5.99a2.332,2.332,0,0,0-2.329,2.329v17.744a2.332,2.332,0,0,0,2.329,2.33h23.475a2.332,2.332,0,0,0,2.329-2.33V367.867a2.332,2.332,0,0,0-2.329-2.33" transform="translate(-403.026 -353.514)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
